@@ -1,0 +1,2 @@
+touchscreen.vusb.enable = "TRUE"
+touchscreen.vusb.present = "TRUE"
